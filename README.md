@@ -7,7 +7,7 @@ java版的文章图谱化展示。利用hanlp进行nlp处理。项目参考自py
     String content="文本内容";
     TextMine textMine = new TextMine();
     textMine.buildGraph(content);
-图谱利用vis生成有向图，保存在text_graph.html中，可直接打开查询。
+图谱利用vis生成有向图，保存在text_graph.html中，可直接打开查看。
 
 # cases
 １) 美国黑人暴乱
