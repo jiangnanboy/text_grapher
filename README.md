@@ -10,11 +10,11 @@ java版的文章图谱化展示。利用hanlp进行nlp处理。项目参考自py
 图谱利用vis生成有向图，保存在text_graph.html中，可直接打开查看。
 
 # cases
-１) 美国黑人暴乱
-![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/美国黑人暴乱.png)
+１) 美国黑人佛洛伊德被杀
+![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/美国黑人佛洛伊德被杀.png)
 
-2) 中行原油宝
-![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/中行原油宝.png)
+2) 中国银行原油宝
+![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/中国银行原油宝.png)
 
 # references
 １）https://github.com/liuhuanyong/TextGrapher
