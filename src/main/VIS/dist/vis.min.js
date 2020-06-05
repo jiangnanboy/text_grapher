@@ -1,5 +1,4 @@
 /**
-
  * vis.js
  * https://github.com/almende/vis
  *
