@@ -1,0 +1,43 @@
+<html>
+    <head>
+      <script type="text/javascript" src="G:/intellij_idea_workspace/text_grapher/src/main/VIS/dist/vis.min.js"></script>
+      <link href="G:/intellij_idea_workspace/text_grapher/src/main/VIS/dist/vis.min.css" rel="stylesheet" type="text/css">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
+    <body>
+    <div id="VIS_draw"></div>
+    <script type="text/javascript">
+      var nodes = [{"id":76,"label":"美国","group":"Event"},{"id":55,"label":"国际","group":"Event"},{"id":77,"label":"中国银行","group":"Event"},{"id":38,"label":"波动","group":"Event"},{"id":73,"label":"价格","group":"Event"},{"id":43,"label":"高频词","group":"Event"},{"id":71,"label":"金融","group":"Event"},{"id":61,"label":"原油","group":"Event"},{"id":80,"label":"国务院金融稳定发展委员会","group":"Event"},{"id":81,"label":"商品","group":"Event"},{"id":79,"label":"产品","group":"Event"},{"id":40,"label":"市场","group":"Event"},{"id":69,"label":"合约","group":"Event"},{"id":19,"label":"关键词","group":"Event"},{"id":21,"label":"暂停","group":"Event"},{"id":47,"label":"机构团体名","group":"Event"},{"id":49,"label":"地名","group":"Event"},{"id":74,"label":"英国","group":"Event"},];
+      var edges = [{"from":61,"label":"","to":19},{"from":79,"label":"","to":19},{"from":26,"label":"","to":19},{"from":69,"label":"","to":19},{"from":73,"label":"","to":19},{"from":77,"label":"","to":19},{"from":71,"label":"","to":19},{"from":76,"label":"","to":19},{"from":55,"label":"","to":19},{"from":81,"label":"","to":19},{"from":69,"label":"","to":21},{"from":73,"label":"","to":38},{"from":61,"label":"","to":43},{"from":26,"label":"","to":43},{"from":69,"label":"","to":43},{"from":79,"label":"","to":43},{"from":77,"label":"","to":43},{"from":71,"label":"","to":43},{"from":76,"label":"","to":43},{"from":38,"label":"","to":43},{"from":40,"label":"","to":43},{"from":55,"label":"","to":43},{"from":76,"label":"","to":49},{"from":80,"label":"","to":47},{"from":74,"label":"","to":49},{"from":76,"label":"","to":74},{"from":74,"label":"","to":76},{"from":80,"label":"","to":55},{"from":76,"label":"","to":79},{"from":76,"label":"","to":61},{"from":74,"label":"","to":61},{"from":74,"label":"","to":79},{"from":76,"label":"","to":69},{"from":74,"label":"","to":77},{"from":74,"label":"","to":69},{"from":80,"label":"","to":71},{"from":80,"label":"","to":73},{"from":74,"label":"","to":76},{"from":76,"label":"","to":77},{"from":80,"label":"","to":79},{"from":80,"label":"","to":81},];
+      var container = document.getElementById("VIS_draw");
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+      var options = {
+          nodes: {
+              shape: 'circle',
+              size: 5,
+              font: {
+                  size: 5
+              }
+          },
+          edges: {
+              font: {
+                  size: 1,
+                  align: 'center'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.1}
+              },
+              smooth: {enabled: true}
+          },
+          physics: {
+              enabled: true
+          }
+      };
+      var network = new vis.Network(container, data, options);
+    </script>
+    </body>
+    </html>
