@@ -11,10 +11,10 @@ java版的文章图谱化展示。利用hanlp进行nlp处理。项目参考自py
 
 # 例子
 １) 美国黑人暴乱
-![image](https://github.com/jiangnanboy/text_grapher/image/美国黑人暴乱.png)
+![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/美国黑人暴乱.png)
 
 2) 中行原油宝
-![image](https://github.com/jiangnanboy/text_grapher/image/中行原油宝.png)
+![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/中行原油宝.png)
 
 # 参考
 １）https://github.com/liuhuanyong/TextGrapher
