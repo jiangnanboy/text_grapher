@@ -1,5 +1,5 @@
 # java_text_grapher
-java版的文章结构化展示。利用hanlp进行nlp处理。
+文章结构化展示。利用hanlp进行nlp处理。
 # introduction
 这里提取文章的关键信息，包括关键词、高频词、实体(地名，人名，机构名)以及依存句法分析提取主谓关系等三元组信息。hanlp可以去官网下载data(数据和模型)，然后在hanlp.properties中进行相关配置。
 # quick start
