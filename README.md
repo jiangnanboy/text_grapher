@@ -11,9 +11,11 @@
 
 # cases
 １) 美国黑人佛洛伊德被杀
+
 ![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/美国黑人佛洛伊德被杀.png)
 
 2) 中国银行原油宝
+
 ![image](https://github.com/jiangnanboy/text_grapher/tree/master/src/main/image/中国银行原油宝.png)
 
 # references
